@@ -1,0 +1,30 @@
+{
+  "name": "culparecusandae",
+  "version": "1.0.0",
+  "description": "Image analysis and comparison for nodejs",
+  "main": "resemble.js",
+  "precommit": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ValentinJacobs/culparecusandae.git"
+  },
+  "keywords": [
+    "comparison",
+    "quibusdam",
+    "diff",
+    "ut"
+  ],
+  "author": "MajorMcLaughlin",
+  "license": "MIT",
+  "dependencies": {
+    "jpeg-js": "^0.4.2",
+    "pngjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-jasmine": "^4.0.0",
+    "gulp-util": "^3.0.8"
+  }
+}
